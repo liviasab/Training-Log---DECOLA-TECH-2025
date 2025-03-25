@@ -1,8 +1,8 @@
-package sabino.livia.domain.service.impi;
+package sabino.livia.service.impi;
 
 import sabino.livia.domain.model.User;
 import sabino.livia.domain.repository.UserRepository;
-import sabino.livia.domain.service.UserService;
+import sabino.livia.service.UserService;
 
 import org.springframework.stereotype.Service;
 

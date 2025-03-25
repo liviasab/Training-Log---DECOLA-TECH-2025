@@ -1,4 +1,4 @@
-package sabino.livia.domain.service;
+package sabino.livia.service;
 
 import sabino.livia.domain.model.User;
 
