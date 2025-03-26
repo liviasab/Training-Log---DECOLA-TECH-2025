@@ -26,7 +26,11 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
-
+tasks.jar{
+	manifest {
+			attributes["Main-Class"] = "src.main.java.sabino.livia.Application.java"
+	}
+}
 tasks.named('test') {
 	useJUnitPlatform()
 }

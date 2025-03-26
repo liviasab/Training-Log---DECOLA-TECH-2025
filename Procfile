@@ -1,0 +1,1 @@
+web: java -jar build/libs/workout-app-2025-0.0.1-SNAPSHOT.jar
